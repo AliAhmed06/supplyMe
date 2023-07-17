@@ -11,7 +11,7 @@ import SimpleNavbarItem from './SimpleNavbarItem';
 const Navbar = () => {
 const [mobileNavbar , setMobileNavbar] = useState(false);
   return (
-    <div className={`fixed w-full bg-black  text-white flex flex-col items-center justify-start
+    <div className={` w-full bg-black  text-white flex flex-col items-center justify-start
                     ${mobileNavbar && 'h-screen '} `}>
         {/* Navbar Header */}
         <div className={`w-[95%] mx-auto h-[120px] flex items-center justify-center 
@@ -50,7 +50,7 @@ const [mobileNavbar , setMobileNavbar] = useState(false);
                         `}>
             <div className={`h-full flex gap-5 
                             ${mobileNavbar ? 'items-center justify-center flex-col w-full':'items-start justify-start flex-row'}`}>
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Home" link="#" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Home" link="/test" />              
               <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Shop" link="#" />              
               <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Media" link="#" />              
               <SimpleNavbarItem mobileNavbar={mobileNavbar} title="About Us" link="#" />              

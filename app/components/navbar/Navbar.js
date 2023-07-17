@@ -50,11 +50,11 @@ const [mobileNavbar , setMobileNavbar] = useState(false);
                         `}>
             <div className={`h-full flex gap-5 
                             ${mobileNavbar ? 'items-center justify-center flex-col w-full':'items-start justify-start flex-row'}`}>
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Home" link="/test" />              
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Shop" link="#" />              
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Media" link="#" />              
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="About Us" link="#" />              
-              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Contact Us" link="#" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Home" link="/" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Shop" link="/shop" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Media" link="/media" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="About Us" link="/about" />              
+              <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Contact Us" link="/contact" />              
             </div>
             <div>
               <p>Call Us : 718-278-8479</p>

@@ -12,7 +12,7 @@ const Navbar = () => {
 const [mobileNavbar , setMobileNavbar] = useState(false);
   return (
     <div className={` w-full bg-black  text-white flex flex-col items-center justify-start
-                    ${mobileNavbar && 'h-screen '} `}>
+                    ${mobileNavbar && 'h-screen fixed z-50'} `}>
         {/* Navbar Header */}
         <div className={`w-[95%] mx-auto h-[120px] flex items-center justify-center 
                         lg:w-[80%]

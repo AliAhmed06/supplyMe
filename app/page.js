@@ -45,15 +45,15 @@ export default function Home() {
         <Container1 headingTitle={"Deal of The Day"}>
           <ProductSlider1 
             data={[
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
-              {'title':'Tulip Block', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block1', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block2', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block3', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block4', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block5', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block6', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block7', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block8', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
+              {'title':'Tulip Block9', 'img':'/images/products/product1.jpg', 'quantity':'120','link':'#'},            
             ]}
           />          
         </Container1>

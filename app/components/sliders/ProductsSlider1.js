@@ -41,7 +41,7 @@ export default function ProductSlider1({data}) {
               className="h-full w-full bg-transparent z-10 bg-red"                  
           >        
               { data.map((item) => (
-                <SwiperSlide >
+                <SwiperSlide key={item.title}>
                   <Link href={"#"}>
                     <div className="h-[70%] w-full bg-[#f2f2f2]">
                       <img src="/images/products/product1.jpg" alt="" className="h-full w-full object-cover object-center" />

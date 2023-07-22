@@ -4,7 +4,7 @@ import React from 'react'
 const Container1 = ({children, headingTitle, headingButtonTitle, HeadingButtonLink}) => {
   return (
     <>
-        <div className="mt-[50px] border-b border-gray1 p-[10px]">
+        <div className="border-b border-gray1 p-[10px]">
             <div className="w-[80%] mx-auto relative">
                 <div className='flex items-center justify-between'>
                   <h3 className="text-2xl font-bold">{headingTitle}</h3>

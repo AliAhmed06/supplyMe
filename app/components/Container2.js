@@ -2,7 +2,7 @@ import Link from 'next/link'
 import { FaList } from 'react-icons/fa';
 import { HiViewList } from 'react-icons/hi';
 
-const Container2 = ({children, headingTitle}) => {
+const Container2 = ({children, headingTitle, gridView, setGridView}) => {
   return (
     <>
         <div className="border-b border-gray1 p-[10px]">
@@ -10,8 +10,16 @@ const Container2 = ({children, headingTitle}) => {
                 <div className='flex items-center gap-16'>
                   <h3 className="text-2xl font-bold">{headingTitle}</h3>                  
                   <div className=' flex items-center gap-2'>
-                    <FaList size={20} className='hidden lg:block' />
-                    <HiViewList size={20} className='hidden lg:block' />
+                    <FaList 
+                      size={20} 
+                      className={`hidden lg:block cursor-pointer ${gridView && 'text-gray2'} `} 
+                      onClick={() => setGridView(true) }
+                    />
+                    <HiViewList 
+                      size={20} 
+                      className={`hidden lg:block cursor-pointer ${!gridView && 'text-gray2'} `} 
+                      onClick={() => setGridView(false) }
+                    />
                     <p className='text-gray2 text-sm'>Showing 1-12 of 22 results</p>
                   </div>
                 </div>

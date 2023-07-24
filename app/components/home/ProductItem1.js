@@ -1,12 +1,10 @@
 "use client"
-import { AiOutlineStar, AiFillStar } from 'react-icons/ai';
 
+import Rating from "../Rating"
+
+// This component is used in home page for showing products in small size
 
 const ProductItem1 = ({title, price, oldPrice, rating, img, discount}) => {
-
-const stars = [1,2,3,4,5];
-
-
 
 
 return (
@@ -28,12 +26,8 @@ return (
                 
                 <span className='text-red font-semibold'>${price}</span>
             </div>
-                        
-            <div className='flex'>
-                { stars.map((item) => (
-                    item <= rating ? <AiFillStar key={item} className='text-golden' /> : <AiOutlineStar key={item} className='text-golden' />
-                )) }
-            </div>
+            <Rating rating={rating} />
+            
         </div>
     </div>
   )

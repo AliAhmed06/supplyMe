@@ -3,6 +3,7 @@ import { IoPersonOutline } from 'react-icons/io5';
 import { AiOutlineHeart } from 'react-icons/ai';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import LogoWithCircle from './LogoWithCircle';
+import Link from 'next/link';
 
 
 const RightItems = () => {
@@ -14,7 +15,7 @@ const RightItems = () => {
         </div>
         <div className='flex items-center justify-center gap-5'>
             <AiOutlineHeart size={30} />
-            <LogoWithCircle Logo={AiOutlineShoppingCart} />
+            <Link href={"/cart"}><LogoWithCircle Logo={AiOutlineShoppingCart} /></Link>
         </div>
     </div>
   )

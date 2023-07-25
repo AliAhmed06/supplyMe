@@ -1,14 +1,17 @@
 import React from 'react'
+import Rating from '../components/Rating'
 
-const TableRow = ({productTitle, color, price, quantity}) => {
+const TableRow = ({productTitle, price, quantity, rating}) => {
   return (
     <tr>
         <td className='border border-gray1 text-center w-[120px] '>
             <img src="/images/products/product1.jpg" alt=""  className='h-[100px] w-full object-contain'/>
         </td>
-        <td className='py-2 border border-gray1 text-center '>                            
-            <p className='text-xl font-semibold'>{productTitle}</p>
-            <p className='text-sm italic'>Color {color}</p>
+        <td className='py-2 border border-gray1 text-center mx-auto '>     
+            <div className='flex items-center justify-center'>
+                <Rating rating={rating} />
+            </div>
+            <p className='text-sm font-semibold'>{productTitle}</p>            
         </td>
         <td className='py-2 border border-gray1 text-center '>${price?.toFixed(2)}</td>
         <td className='py-2 border border-gray1 text-center '>
@@ -19,7 +22,7 @@ const TableRow = ({productTitle, color, price, quantity}) => {
             <button 
                 className='bg-black text-white py-1 px-5 rounded-sm hover:opacity-80'
                 onClick={() => {}}
-            >REMOVE</button>
+            >Add To Cart</button>
         </td>
     </tr>
   )

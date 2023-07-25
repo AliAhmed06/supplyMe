@@ -13,8 +13,8 @@ const RightItems = () => {
             <IoPersonOutline size={30} />
             <span>My Account</span>
         </div>
-        <div className='flex items-center justify-center gap-5'>
-            <AiOutlineHeart size={30} />
+        <div className='flex items-center justify-center gap-5'>            
+            <Link href={"/wishlist"}><AiOutlineHeart size={30} /></Link>
             <Link href={"/cart"}><LogoWithCircle Logo={AiOutlineShoppingCart} /></Link>
         </div>
     </div>

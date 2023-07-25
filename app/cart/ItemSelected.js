@@ -21,11 +21,11 @@ const ItemSelected = () => {
                     <tr>
                         <td className=' text-center p-2 border border-gray1' colSpan={6}>
                             <button 
-                                className='bg-black text-white py-2 px-5 rounded-sm mr-3 hover:opacity-80'
+                                className='bg-black text-white py-1 px-5 rounded-sm mr-3 hover:opacity-80'
                                 onClick={() => {}}
                             >UPDATE</button>
                             <button 
-                                className='bg-black text-white py-2 px-5 rounded-sm hover:opacity-80'
+                                className='bg-black text-white py-1 px-5 rounded-sm hover:opacity-80'
                                 onClick={() => {}}
                             >CONTINUE SHOPPING</button>
                         </td>

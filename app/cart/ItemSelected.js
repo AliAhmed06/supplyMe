@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import TableRow from './TableRow'
 
 const ItemSelected = () => {
@@ -46,10 +47,13 @@ const ItemSelected = () => {
                     <p className='font-semibold'>Shipping</p>
                     <p className='text-gray2 text-sm text-end'>Taxes and shipping calculated at checkout</p>
                 </div>
-                <button 
-                    className='bg-second text-white w-full py-2 px-5 hover:opacity-80 mt-5'
-                    onClick={() => {}}
-                >CHECK OUT</button>
+
+                <div className='bg-red w-full flex mt-5'>
+                    <Link 
+                        href={"/checkout"}
+                        className='bg-second text-white w-full text-center py-2 px-5 hover:bg-first'                    
+                    >CHECK OUT</Link>
+                </div>
             </div>
         </div>
     </div>

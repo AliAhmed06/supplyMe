@@ -21,7 +21,7 @@ const About = () => {
         <div className="w-full ">
           <img src="/images/about/about1.PNG" className="w-full lg:h-[500px] object-cover object-center" alt="" />
           <p className="md:w-[70%] mx-auto text-center text-lg px-5 py-10 text-gray2 font-semibold leading-normal">Welcome to R&R General Supply. We have proudly served Astoria, Queens and the rest of the five boroughs since
-              we first opened our doors in 1926. We are happy to meet our clients' many and diverse needs with a variety of of
+              we first opened our doors in 1926. We are happy to meet our clients. many and diverse needs with a variety of of
               maintenance, repair, and industrial supplies. From those who manage just a single building to the biggest names
               in real estate, R&R General Supply is here to ensure their clients have the tools they need to get the job done. <br /><br />
 

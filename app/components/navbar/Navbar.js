@@ -1,16 +1,22 @@
 "use client";
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Logo from './Logo'
 import SearchBar from './SearchBar'
 import RightItems from './RightItems'
 import Image from 'next/image';
 import Link from 'next/link';
 import SimpleNavbarItem from './SimpleNavbarItem';
-
+import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
 const [mobileNavbar , setMobileNavbar] = useState(false);
-  return (
+const path = usePathname();
+
+useEffect(() => {
+  setMobileNavbar(false);
+}, [path])
+  
+return (
     <div className={` w-full bg-black  text-white flex flex-col items-center justify-start
                     ${mobileNavbar && 'h-screen fixed z-50'} `}>
         {/* Navbar Header */}

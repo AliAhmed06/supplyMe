@@ -151,7 +151,7 @@ const Shop = () => {
             { grid === true ? (
               <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 '>
                 { products?.map((product) => (
-                  <ProductItem2 img={product?.img} price={product?.price} title={product?.title} rating={product?.rating} discount={product?.discount} oldPrice={product?.oldPrice} url={product?.url}  />  
+                  <ProductItem2 key={product.img} img={product?.img} price={product?.price} title={product?.title} rating={product?.rating} discount={product?.discount} oldPrice={product?.oldPrice} url={product?.url}  />  
                 )) }                
               </div>
             ) : (              

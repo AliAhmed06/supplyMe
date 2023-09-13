@@ -157,7 +157,7 @@ const Shop = () => {
             ) : (              
               <div className='grid grid-cols-1 '>
                   { products?.map((product) => (
-                      <ProductItem3 img={product.img} price={product.price} title={product.title} rating={product.rating} description={product.description} url={product.url} />
+                      <ProductItem3 key={product.img} img={product.img} price={product.price} title={product.title} rating={product.rating} description={product.description} url={product.url} />
                   )) }                
                 {/* <ProductItem3 img={"/images/products/product1.jpg"} price={"95.00"} title={"Cordless Drill"} rating={5} description="Lorem Ipsum has evolved as a filler text for prototyping in the English language. As it is written in a Latin looking language that has no meaning, it does not distract from analysing the layout of the page. While Lorem Ipsum is a useful tool for designers, it may not be sufficient when building software applications." url="#" />
                 <ProductItem3 img={"/images/products/product1.jpg"} price={"95.00"} title={"Cordless Drill"} rating={5} description="Lorem Ipsum has evolved as a filler text for prototyping in the English language. As it is written in a Latin looking language that has no meaning, it does not distract from analysing the layout of the page. While Lorem Ipsum is a useful tool for designers, it may not be sufficient when building software applications." url="#" />

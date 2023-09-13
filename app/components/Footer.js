@@ -6,20 +6,20 @@ const Footer = () => {
     <div className='text-gray1 w-full bg-black '>
       <div className='w-[80%] mx-auto py-10'>
         <div className='bg-first p-7 mx-auto flex flex-col items-center justify-between gap-5 mt-[-100px] 
-                        lg:w-[60%] md:flex-row'>
-          <div>
-            <h3 className='text-3xl font-semibold text-white'>We Shape Your Dreams</h3>
-            <p className='text-sm'>CONTACT US FOR A FREE CONSULTATION FROM QUALIFIED EXPERTS</p>
+                        lg:w-[60%] '>
+          <h3 className='text-3xl font-semibold text-white'>Subscribe to Our Newsletter</h3>
+          <div className='w-full lg:px-10 flex items-center justify-center gap-5'>
+            <input type="text" placeholder='Email' className='bg-transparent py-2 px-5 text-white rounded-md outline-none border border-gray1 focus:border-white placeholder-white' />
+            <button className='bg-white py-3 px-5 rounded-md hover:opacity-80 text-second font-semibold text-sm'>
+              SUBSCRIBE
+            </button>
           </div>
-          <button className='bg-white py-3 px-5 rounded-md hover:opacity-80 text-second font-semibold text-sm'>
-            Get A Free QUOTE
-          </button>
         </div>
         <div className='bg-black grid grid-cols-1 gap-20 items-start pt-10
                         md:grid-cols-2 lg:grid-cols-4 lg:gap-10'>
           <div className='flex flex-col items-center justify-center gap-10'>
-            <img src="/images/logo.jpg" alt="logo" className='h-[120px]' />
-            <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi voluptatibus necessitatibus rem omnis impedit eius illo doloribus pariatur voluptatum.</p>
+            <img src="/images/logo.png" alt="logo" className='h-[120px]' />
+            <p className='text-justify'>At vero eos et accusamus et iusto odio dignissimods ducimus qui blanditiis huii.</p>
             <div className='flex gap-5'>
               <Link href={"#"}><img src="/images/footer/visa.PNG" alt="" className='h-[40px]' /></Link>
               <Link href={"#"}><img src="/images/footer/master-card.PNG" alt="" className='h-[40px]' /></Link>
@@ -31,9 +31,9 @@ const Footer = () => {
             <h3 className='text-xl font-semibold text-white'>Contact Us</h3>
             <span className=' bg-first self-start h-[2px] w-[60px] mt-[-20px]'></span>
             <div className='flex flex-col gap-5'>
-              <Link href={"#"} className=' hover:text-white' >Lorem ipsum dolor sit amet consectetur adipisicing elit. </Link>
-              <Link href={"#"} className=' hover:text-white'>123-456-78 </Link>
-              <Link href={"#"} className='hover:text-white' >test@gmail.com </Link>
+              <Link href={"#"} className=' hover:text-white' >18-07 Astoria Boulevard <br/> Long Island City, NY 11102</Link>
+              <Link href={"#"} className=' hover:text-white'>718-278-8479</Link>
+              <Link href={"#"} className='hover:text-white' >orders@rrgeneralsupply.com</Link>
             </div>
           </div> 
 

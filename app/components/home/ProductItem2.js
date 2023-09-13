@@ -22,7 +22,7 @@ const ProductItem2 = ({title, price, oldPrice, rating, img, discount, url}) => {
             </div>            
         </div>
         )}
-        <img src={img} alt="" className="h-[200px] object-contain" />
+        <img src={img} alt="" className="h-[140px] object-contain" />
         <div className='mt-5 w-full'>
             
             <h3 className='text-gray2'>{title}</h3>

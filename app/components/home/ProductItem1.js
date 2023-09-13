@@ -8,7 +8,7 @@ const ProductItem1 = ({title, price, oldPrice, rating, img, discount}) => {
 
 
 return (
-    <div className="relative min-w-max p-5 flex items-start flex-col ">
+    <div className="relative min-w-max p-10 flex items-start flex-col ">
         {discount && (
         <div className='absolute top-0'>
             <div className=' bg-red text-white pl-1   text-xs flex items-center justify-center'>

@@ -24,7 +24,9 @@ const ProductItem3 = ({title, price, oldPrice, rating, img, discount, descriptio
             </div>            
         </div>
         )}
-        <img src={img} alt="" className="h-[200px] object-contain" />
+        <div className='w-[170px]'>
+            <img src={img} alt="" className="w-full object-contain" />
+        </div>
         <div className='mt-5 w-full'>
             <div className='flex'>
                 { stars.map((item) => (

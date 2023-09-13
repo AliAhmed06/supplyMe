@@ -43,8 +43,8 @@ export default function ProductSlider1({data}) {
               { data.map((item) => (
                 <SwiperSlide key={item.title}>
                   <Link href={"#"}>
-                    <div className="h-[70%] w-full bg-[#f2f2f2]">
-                      <img src="/images/products/product1.jpg" alt="" className="h-full w-full object-cover object-center" />
+                    <div className="h-[70%] w-full bg-[#f2f2f2] p-5">
+                      <img src={item.img} alt="" className="h-full w-full object-cover object-center" />
                     </div>
                     <p className="text-center text-gray2 mt-2">
                       Kitchen Faucets <br />

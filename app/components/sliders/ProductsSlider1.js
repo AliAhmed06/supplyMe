@@ -47,8 +47,8 @@ export default function ProductSlider1({data}) {
                       <img src={item.img} alt="" className="h-full w-full object-cover object-center" />
                     </div>
                     <p className="text-center text-gray2 mt-2">
-                      Kitchen Faucets <br />
-                      (120 Items)
+                      {item.title} <br />
+                      ({item.quantity} Items)
                     </p>                                    
                   </Link>
                 </SwiperSlide>                        

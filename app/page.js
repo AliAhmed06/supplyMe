@@ -15,7 +15,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="h-[500px] flex items-center justify-center w-full bg-[url('/images/home/hero.png')] bg-cover bg-top">
         <div className="w-[60%] flex flex-col gap-5 ">
-          <h3 className=" text-3xl md:text-5xl font-bold text-white">Buy Top </h3>
+          <h3 className=" text-3xl md:text-5xl font-bold text-white">Explore Top </h3>
           <h3 className="text-3xl md:text-5xl font-bold text-white">Quality Tools</h3>
           <p className="text-xl text-white font-semibold">At <span className="text-first">Affordable</span> Prices!</p>          
           <Link 

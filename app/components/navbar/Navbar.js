@@ -17,7 +17,7 @@ useEffect(() => {
 }, [path])
   
 return (
-    <div className={` w-full bg-black  text-white flex flex-col items-center justify-start
+    <div className={` w-full bg-white  text-black flex flex-col items-center justify-start
                     ${mobileNavbar && 'h-screen fixed z-50'} `}>
         {/* Navbar Header */}
         <div className={`w-[95%] mx-auto h-[120px] flex items-center justify-center 
@@ -49,12 +49,12 @@ return (
             </div>
         </div>
         {/* Navbar Menu */}
-        <div className={`w-full border-t border-gray1 mt-5 h-full flex-1 
+        <div className={`w-full border-t border-gray1 mt-5 h-full flex-1 bg-black text-white 
                         ${mobileNavbar ? 'block' : 'hidden' } md:block`}>
           <div className={`w-[95%] mx-auto flex flex-col items-center justify-between gap-5 h-full  
                         lg:w-[80%] md:flex-row                        
                         `}>
-            <div className={`h-full flex gap-5 
+            <div className={`h-full flex gap-5  
                             ${mobileNavbar ? 'items-center justify-center flex-col w-full':'items-start justify-start flex-row'}`}>
               <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Home" link="/" />              
               <SimpleNavbarItem mobileNavbar={mobileNavbar} title="Shop" link="/shop" />              

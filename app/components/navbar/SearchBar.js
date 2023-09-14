@@ -5,11 +5,11 @@ const SearchBar = () => {
         <input 
             type="text" 
             placeholder='Search Products...' 
-            className='w-[200px] py-2 px-5 rounded-md outline-none border-2 border-white focus:border-first
+            className='w-[200px] py-2 px-5 rounded-md outline-none border-2 border-gray focus:border-[#14A00B]
                         md:w-[400px] lg:w-[500px]'            
         />
         <button 
-            className="bg-second px-5 rounded-md hover:bg-first"
+            className="bg-second px-5 rounded-md text-white hover:bg-first"
         >
             Search
         </button>

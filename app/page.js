@@ -27,9 +27,9 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Shop By Category Section */}
+      {/* Products By Category Section */}
       <section className="mt-[50px]">
-        <Container1 headingTitle={"Shop By Category"}>
+        <Container1 headingTitle={"Products By Category"}>
           <ProductSlider1 
             data={[
               {'title':'Building Materials', 'img':'/images/home/categories/category1.png', 'quantity':'120','link':'#'},            
@@ -44,9 +44,9 @@ export default function Home() {
       </section>
 
 
-      {/* Deal of The Day Section */}
+      {/* Most View Products Section */}
       <section className="mt-[50px]">
-        <Container1 headingTitle={"Deal of The Day"}>
+        <Container1 headingTitle={"Most View Products"}>
            <div className="flex items-center justify-start gap-10 w-full overflow-x-auto">
               <ProductItem1 img={"/images/home/deal1.png"} price={"95.00"} title={"Cordless Drill"} rating={5} />
               <ProductItem1 img={"/images/home/deal2.png"} price={"280.00"} oldPrice={"400.00"} title={"Glue Gun"} rating={5} discount={"18"} />
@@ -86,7 +86,7 @@ export default function Home() {
 
 
       {/* Services Section */}
-      <section className="min-h-[300px] bg-black mt-[50px] p-10 flex">
+      <section className="min-h-[300px] bg-[url('/images/home/bg-services.png')] bg-cover bg-center mt-[50px] p-10 flex">
           <div className="w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center justify-center mx-auto text-white  gap-10 lg:gap-24">
             <ServicesItem img="/images/home/service1.png" title1={"Fast Free Shipping"} title2={"On Orders $50 or More"} />            
             <ServicesItem img="/images/home/service2.png" title1={"Best Online Support"} title2={"24/7 amazing services"} />            

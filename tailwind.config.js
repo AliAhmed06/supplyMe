@@ -1,12 +1,18 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    // './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    // './components/**/*.{js,ts,jsx,tsx,mdx}',
+    // './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
+      fontFamily: {
+        RobotoRegular: 'RobotoRegular',
+        RobotoBold: 'RobotoBold',
+        RobotoMedium: 'RobotoMedium',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -18,12 +24,12 @@ module.exports = {
       current: 'currentColor',
       'black': '#040404',
       'white': '#ffffff',
-      'gray1': '#c1c1c1',
+      'gray1': '#f7f7f7',
       'gray2': '#7a7a7a',
       'red': '#d33131',
       'golden': '#f2b600',
-      'first': '#14A00B',
-      'second': '#14A00B',
+      'first': '#00f36f',
+      'second': '#202447',
       'bermuda': '#78dcca',
     },
     screens: {
